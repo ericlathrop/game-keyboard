@@ -1,5 +1,5 @@
 /**
- * Keyboard code mappings that map keycodes to key names. A specific named map should be given to {@link Keyboard}. The default map is "US".
+ * Keyboard code mappings that map keycodes to key names. A specific named map should be given to {@link Keyboard}.
  * @module KeyMap
  */
 module.exports = {

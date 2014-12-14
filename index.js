@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * Keyboard input handling. An instance of Keyboard is available as {@link Splat.Game#keyboard}.
+ * Keyboard input handling.
  * @constructor
  * @param {module:KeyMap} keymap A map of keycodes to descriptive key names.
  */
