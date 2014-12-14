@@ -4,7 +4,7 @@
   "description": "Check current state of keyboard keys in the browser. Suitable for games.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "lint": "bash -c \"jshint *.js\""
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,30 @@
   },
   "homepage": "https://github.com/ericlathrop/game-keyboard",
   "devDependencies": {
+    "jshint": "^2.5.10"
+  },
+  "jshintConfig": {
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "freeze": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": "nofunc",
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonbsp": true,
+    "nonew": true,
+    "quotmark": "double",
+    "unused": "strict",
+    "trailing": true,
+    "browser": true,
+    "devel": true,
+    "globalstrict": true,
+    "node": true,
+    "globals": {
+    }
   }
 }
