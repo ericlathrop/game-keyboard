@@ -1,0 +1,26 @@
+{
+  "name": "game-keyboard",
+  "version": "0.0.0",
+  "description": "Check current state of keyboard keys in the browser. Suitable for games.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericlathrop/game-keyboard.git"
+  },
+  "keywords": [
+    "game",
+    "browser",
+    "keyboard"
+  ],
+  "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericlathrop/game-keyboard/issues"
+  },
+  "homepage": "https://github.com/ericlathrop/game-keyboard",
+  "devDependencies": {
+  }
+}
