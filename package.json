@@ -1,6 +1,6 @@
 {
   "name": "game-keyboard",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Check current state of keyboard keys in the browser. Suitable for games.",
   "main": "index.js",
   "scripts": {

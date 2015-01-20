@@ -20,7 +20,6 @@ function Keyboard(keyMap) {
 		}
 	}
 	window.addEventListener("keydown", function(event) {
-		event.preventDefault();
 		if (keyMap.hasOwnProperty(event.keyCode)) {
 			if (self.keys[keyMap[event.keyCode]] === 0) {
 				self.keys[keyMap[event.keyCode]] = 2;
@@ -29,7 +28,6 @@ function Keyboard(keyMap) {
 		}
 	});
 	window.addEventListener("keyup", function(event) {
-		event.preventDefault();
 		if (keyMap.hasOwnProperty(event.keyCode)) {
 			self.keys[keyMap[event.keyCode]] = 0;
 			return false;
